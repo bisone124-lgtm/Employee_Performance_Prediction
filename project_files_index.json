@@ -1,0 +1,11 @@
+{
+  "project_root": "/mnt/data/Project_Demo",
+  "dataset_csv": "/mnt/data/Project_Demo/Dataset/employee_performance.csv",
+  "training_notebook": "/mnt/data/Project_Demo/TrainingFiles/Employee_Prediction.ipynb",
+  "training_model": "/mnt/data/Project_Demo/TrainingFiles/model_pipeline.pkl",
+  "flask_app": "/mnt/data/Project_Demo/Flask/app.py",
+  "flask_model": "/mnt/data/Project_Demo/Flask/gwp.pkl",
+  "html_template": "/mnt/data/Project_Demo/Flask/templates/index.html",
+  "report_md": "/mnt/data/Project_Demo/Report/Employee_Performance_Prediction.md",
+  "confusion_matrix": "/mnt/data/Project_Demo/TrainingFiles/confusion_matrix.png"
+}

@@ -1,0 +1,208 @@
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background: #f7f8fc;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+nav {
+  background-color: #004aad;
+  color: white;
+  padding: 12px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  background: white;
+  padding: 25px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+button {
+  background: #004aad;
+  color: white;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: #0066cc;
+}
+
+.result {
+  background: #e8f0fe;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+.predict-form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.predict-form .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.predict-form label {
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.predict-form input,
+.predict-form select {
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.predict-form button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.predict-form button:hover {
+    background-color: #45a049;
+}
+
+.home-full {
+  background: url('employee-performance-improvement.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  height: calc(100vh - 60px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.home-box {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 40px 50px;
+  border-radius: 10px;
+  max-width: 700px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+
+.about-full {
+  background: url('about-us-page.png') no-repeat center center fixed;
+  background-size: cover;
+  height: calc(100vh - 60px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.predict-full {
+  background: url('plpso-feratures-data-business.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: calc(100vh - 60px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #222;
+}
+
+.predict-container {
+  width: 80%;
+  max-width: 900px;
+}
+
+.predict-container h2 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #ffffff;
+  text-shadow:
+    -1px -1px 0 #000,
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000,
+    0 0 5px rgba(0, 0, 0, 0.6),
+    0 0 10px rgba(0, 0, 0, 0.5),
+    0 0 15px rgba(0, 0, 0, 0.4);
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 40px;
+  text-align: left;
+}
+
+.predict-form .form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.predict-form label {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.predict-form input,
+.predict-form select {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.predict-form button {
+  background-color: #0056d2;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+.predict-form button:hover {
+  background-color: #003f99;
+}
+
+@media (max-width: 768px) {
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+}
